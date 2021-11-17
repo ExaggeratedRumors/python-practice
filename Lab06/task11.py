@@ -10,6 +10,7 @@
 # wystąpienia podanego elementu. Wybierz
 # z listy elementy od indeksu i do j.
 
-
-_input = input()
-
+print("Podaj liczby:\n")
+_input = [int(item) for item in input().split()]
+for idx, val in enumerate(_input):
+    print(idx, val)

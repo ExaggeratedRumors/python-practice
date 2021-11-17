@@ -13,8 +13,9 @@ for i in range(1, len(lista)):
     index = 0
     for j in range(i, len(lista)):
         if lista[j] < temp[index] and index < substring_length:
-            temp.append(lista[i])
+            temp.append(lista[j])
             index += 1
-    malejace.append(temp)
+    if len(temp) == 3:
+        malejace.append(temp)
 
 print(malejace)
