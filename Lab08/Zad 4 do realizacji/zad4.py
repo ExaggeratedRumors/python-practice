@@ -1,0 +1,2 @@
+# 4. Zapisujemy do pliku kąt, sinus i consinus z przedziału 0,360 co 1 stopień oraz czytamy te dane.
+# przy zapisie stosujemy różne sposoby formatowania łańcucha znaków ( %, .format() oraz f'') ale efekt ma być taki sam.
