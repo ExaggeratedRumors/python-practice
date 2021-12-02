@@ -8,7 +8,7 @@
 
 # wykorzystujemy operator with
 with open('dane.dat') as file1:
-	results4 = [[float(val) for val in l.split()] for l in file1 if l[0] != "#"]
+	results4 = [[float(val) for val in l.split()] for l in file1]
 
 for i in results4:
     print(i)

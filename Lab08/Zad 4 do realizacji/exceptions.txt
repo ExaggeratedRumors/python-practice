@@ -4,3 +4,4 @@
 2021-11-25 15:52:44.169351: type(e)=<class 'TypeError'>, ("unsupported operand type(s) for /: 'int' and 'str'",)
 2021-11-25 15:53:00.090785: type(e)=<class 'TypeError'>, ("unsupported operand type(s) for /: 'int' and 'str'",)
 2021-11-25 15:53:37.966061: type(e)=<class 'TypeError'>, ("unsupported operand type(s) for /: 'int' and 'str'",)
+2021-11-25 15:57:03.698203: type(e)=<class 'TypeError'>, ("unsupported operand type(s) for /: 'int' and 'str'",)
