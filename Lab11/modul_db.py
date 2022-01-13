@@ -1,14 +1,8 @@
-# 9. Utworzyć w pamięci RAM tabelę z autonumeracją pola ID.
-# conn = sqlite3.connect(':memory:')
-# Zrealizować wstawianie danych na podstawie listy (tuple).
-# Dodatkowo wstawianie i prezentacja danych powinna być zrealizowana na podstawie opracowanej do tego funkcji.
-# Opracowane funkcje mają przyjmować określone atrybuty w zależności od ich przeznaczenia.
-# Zaprezentować prawidłowe działanie tych funkcji
-
+# 10. Ostatni przykład, wstawić powyższe 3 funkcje do oddzielnego modułu modul_db.py
+#   oraz wykonać powyższe funkcje (pamiętajmy, iż zmienna conn jest dostępna w ramach jedengo skryptu.
+#   Jednak gdy przeniesiemy je do oddzielnego modułu to parametrem wejściowym powinna być zmienna conn)
 import sqlite3
-
 table_name = "EMPLOYEES"
-
 
 def czytaj_dane(conn):
     """Funkcja pobiera i wyświetla dane z bazy."""
@@ -35,14 +29,8 @@ def wstaw_dane(con, lista):
     """Wstawiamy wiele rekordów na podstawie listy tuple"""
     try:
         con.execute(f"INSERT OR IGNORE INTO {table_name} VALUES {lista}")
-        conn.commit()
+        con.commit()
     except sqlite3.Error as e:
         print(e)
 
 
-conn = sqlite3.connect(':memory:')
-utworz_tabele(conn)
-wstaw_dane(conn, (1, "Dominik", 20, "Warszawa", 20000))
-data = czytaj_dane(conn)
-conn.close()
-print(data)

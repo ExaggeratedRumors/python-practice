@@ -30,3 +30,7 @@
 # 10. Kończymy pracę z narzędziem.
 
 # W następnych zadaniach wykorzystujemy tylko język Python do operacji na bazie danych.
+
+
+#1  .cd "C:/Users/gajda/Desktop/Studia/S1/Programowanie skryptowe/Laboratory/Lab11"
+#2  .open test.db
