@@ -5,6 +5,8 @@
 # skroc(), skraca ułamek, wymaga obliczenia największego wspólnego dzielnika
 # dodaj(), odejmij(), mnoz(), dziel() (statyczne) – obliczają odpowiednio sumę i iloczyn dwóch ułamków
 
+# >>> Tworzenie metod <znowu>
+
 import math
 
 

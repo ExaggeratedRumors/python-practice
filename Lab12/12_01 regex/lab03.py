@@ -1,4 +1,7 @@
 # sprawdź ile adresów email jest poprawnych
+
+# >>> findall
+
 import re
 
 email = 'a1_f@wp.pl a1_f@wp.pl,a3@wp.pl'

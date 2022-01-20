@@ -1,6 +1,6 @@
 # 5. Napisać skrypt, który pobierze i wyświetli wszystkie krotki z tabeli EMPLOYEES.
 
-# wyświetlanie rekordów
+# >>> wyświetlanie rekordów
 
 import sqlite3
 

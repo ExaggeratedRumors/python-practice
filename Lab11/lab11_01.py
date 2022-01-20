@@ -1,3 +1,7 @@
+# >>> Prawdziwa instrukcja:
+#1  .cd "path"
+#2  .open test.db
+
 # Pobierz i zainstaluj Sqlite Tools oraz SQLiteBrowserPortable.
 # I. Pobieramy narzędzia linii poleceń SQLite Tools ze strony https://sqlite.org/download.html
 # -- link do pliku:
@@ -30,7 +34,3 @@
 # 10. Kończymy pracę z narzędziem.
 
 # W następnych zadaniach wykorzystujemy tylko język Python do operacji na bazie danych.
-
-
-#1  .cd "C:/Users/gajda/Desktop/Studia/S1/Programowanie skryptowe/Laboratory/Lab11"
-#2  .open test.db

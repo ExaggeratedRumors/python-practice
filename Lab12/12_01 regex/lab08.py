@@ -1,5 +1,7 @@
 # Napisz wyrażenie regularne dla CZASU w formacie hh:min.sec
 
+# >>> finditer w liście
+
 import re
 regex = r"^([0-1][0-9]:[0-5][0-9].[0-5][0-9])|([2][0-3]:[0-5][0-9].[0-5][0-9])"
 test_str = ["23:21.23", "11:59.61", "01:01.01", "25:12.12"]

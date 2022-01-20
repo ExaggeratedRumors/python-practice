@@ -1,8 +1,13 @@
 # 10. Ostatni przykład, wstawić powyższe 3 funkcje do oddzielnego modułu modul_db.py
 #   oraz wykonać powyższe funkcje (pamiętajmy, iż zmienna conn jest dostępna w ramach jedengo skryptu.
 #   Jednak gdy przeniesiemy je do oddzielnego modułu to parametrem wejściowym powinna być zmienna conn)
+
+# >>> zestawienie funkcji obsługujących bazy danych
+
 import sqlite3
+
 table_name = "EMPLOYEES"
+
 
 def czytaj_dane(conn):
     """Funkcja pobiera i wyświetla dane z bazy."""
@@ -32,5 +37,3 @@ def wstaw_dane(con, lista):
         con.commit()
     except sqlite3.Error as e:
         print(e)
-
-

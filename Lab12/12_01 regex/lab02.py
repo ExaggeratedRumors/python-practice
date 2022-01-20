@@ -1,4 +1,7 @@
 # sprawdź czy adres email jest poprawny
+
+# >>> regex test
+
 import re
 
 email = 'a1_f@wp.pl'

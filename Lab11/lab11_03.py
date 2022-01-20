@@ -7,6 +7,8 @@
 # 	- SALARY
 #   Zaproponować właściwe typy danych w każdej z kolumn.
 
+# >>> cursor & execute - tworzenie tabeli
+
 import sqlite3
 
 sql_create_table = """

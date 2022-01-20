@@ -1,5 +1,5 @@
 # Napisz wyrażenie regularne dla numeru PESEL
 
-import re
+# >>> simple regex
 
 regex = r"^\d{11}"

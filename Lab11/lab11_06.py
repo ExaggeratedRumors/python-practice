@@ -1,4 +1,7 @@
 # 6. Napisać skrypt, który zmodyfikuje składowane w tabeli EMPLOYEES dane (polecenie UPDATE) zwiększajć o 10% wartość SALARY
+
+# >>> update - zmiana rekordu
+
 import sqlite3
 
 conn = None

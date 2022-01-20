@@ -5,6 +5,9 @@
 # - modul(), oblicza moduł liczby zespolonej a+bi: sqrt(a**2+b**2)
 # - add(), multiply(), subtract() (statyczne); obliczają odpowiednio sumę, iloczyn, rożnicę dwóch liczb zespolonych
 # oraz zdefiniować metodę dzielenia dóch liczb division()
+
+# >>> Tworzenie metod <znowu>
+
 from math import sqrt
 
 
@@ -30,7 +33,6 @@ class Zespolona:
     def subtract(z1, z2):
         return Zespolona(z1.re - z2.re, z1.im - z2.im)
 
-    # (a+bi) * (c+di) = ac-bd + (bc+ad)i
     @staticmethod
     def multiply(z1, z2):
         a = z1.re

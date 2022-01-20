@@ -1,4 +1,7 @@
 # sprawdź ile wyrazów PYthon pisany dowolnymi literami jest w zdaniu
+
+# >>> sub & findall
+
 import re
 
 zdanie = 'PYTHON. To jest kolokwium z przedmiotu Programowanie skryptowe, ' \

@@ -2,6 +2,9 @@
 # (Standardowy + - * / opcja zapamiętywania oraz kasowania wyniku)
 # metody add(self, amount), subtract(self, amount), multiply(self, amount), division(self, amount).
 # Gdzie amount wartość, która jest np. dodawana do wartości w pamięci current.
+
+# >>> Tworzenie metod
+
 import math
 
 class Calculator:

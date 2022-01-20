@@ -5,6 +5,8 @@
 # Opracowane funkcje mają przyjmować określone atrybuty w zależności od ich przeznaczenia.
 # Zaprezentować prawidłowe działanie tych funkcji
 
+# >>> wprowadzanie danych do bazy z tupli
+
 import sqlite3
 
 table_name = "EMPLOYEES"
@@ -21,7 +23,7 @@ def czytaj_dane(conn):
         print(e)
 
 
-def utworz_tabele(con):  # gotowa funkcja
+def utworz_tabele(con):
     """Tworzenie tabeli bez parametrów"""
     con.execute(f'''CREATE TABLE IF NOT EXISTS {table_name}
     (ID INTEGER PRIMARY KEY ASC,

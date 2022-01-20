@@ -1,5 +1,7 @@
 # Napisz wyrażenie regularne dla LICZB SZESTNASTKOWYCH
 
+# >>> finditer znowu
+
 import re
 
 regex = r"[A-F0-9-]"

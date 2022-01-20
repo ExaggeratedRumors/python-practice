@@ -6,6 +6,8 @@
 # Dodatkowo definiujemy funkcję aby wpisać całe równanie w postaci - a*x**2+b*x+c
 # oraz oblicznie wartości funkcji w punkcie x.
 
+# >>> Tworzenie klas z atrybutami
+
 class FunkcjaKwadratowa:
     def __init__(self, a, b, c):  # konstruktor
         self.a = a

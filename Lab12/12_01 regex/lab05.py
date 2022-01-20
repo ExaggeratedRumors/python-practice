@@ -1,9 +1,12 @@
 #https://docs.python.org/3.9/library/re.html?highlight=re#module-re
+
+# >>> finditer
+
 import re
 
-#regex = r"(\d{2})-(\d{3})"
+regex = r"(\d{2})-(\d{3})"
+regex = r"\d{2}-\d{3}"
 regex = r"(\d{2}-\d{3})"
-#regex = r"\d{2}-\d{3}"
 test_str = "65-453 63-334 44-567"
 
 matches = re.finditer(regex, test_str, re.MULTILINE)

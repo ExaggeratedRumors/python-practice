@@ -3,7 +3,9 @@
 # Zdefiniuj metodę displayEmployee(), która wyświetla nazwę pracownika,
 # pensję oraz wiek.
 
-from lab12_01 import Person  # lub skopiować daną klasę z pliku lab12_01.py
+# >>> Dziedziczenie
+
+from lab12_01 import Person
 
 
 class Employee(Person):
