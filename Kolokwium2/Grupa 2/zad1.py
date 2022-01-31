@@ -1,0 +1,1 @@
+print([(i ** 2 + 5) for i in range(0, 11) if (i ** 2 + 5) > 40])
